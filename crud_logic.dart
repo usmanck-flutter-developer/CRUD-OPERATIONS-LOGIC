@@ -10,18 +10,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // Remove debug banner
-      home: TodoApp(), // Load the TODO app
+      home: CrudApp(), // Load the TODO app
     );
   }
 }
 
 // Stateful Widget for TODO App
-class TodoApp extends StatefulWidget {
+class CrudApp extends StatefulWidget {
   @override
-  _TodoAppState createState() => _TodoAppState();
+  _CrudAppState createState() => _CrudAppState();
 }
 
-class _TodoAppState extends State<TodoApp> {
+class _CrudAppState extends State<CrudApp> {
   List<String> tasks = []; // List to store tasks
   TextEditingController taskController = TextEditingController(); // Controller for text input
 
