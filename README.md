@@ -1,4 +1,4 @@
-# Flutter TODO App with CRUD Operations 🚀
+# Flutter Crud App to Learn CRUD Operations 🚀
 
 ## 📌 Features Included:
 - ✅ **Add Task** ➕
